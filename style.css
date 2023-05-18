@@ -25,7 +25,7 @@
 }
 
 .saluteText {
-  color: #333;
+  color: rgb(200, 195, 188);
   font-size: 60vw;
   cursor: default;
 }
@@ -41,7 +41,7 @@
 
 .name {
   font-size: 20vw;
-  color: #333;
+  color: rgb(200, 195, 188);
   cursor: default;
   text-align: center;
   line-height: 100vh;
@@ -60,7 +60,7 @@
 
 .jobTitle {
   font-size: 10vw;
-  color: #333;
+  color: rgb(200, 195, 188);
   line-height: 100vh;
   cursor: default;
 }
@@ -252,6 +252,8 @@
 
   .project{
     flex-direction: column;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
   }
   .project:nth-child(2n){
