@@ -255,13 +255,28 @@
     text-align: left;
   }
 
+  .projectDesc {
+    text-align: center;
+  }
+
+  .laptop {
+    width: 390px;
+    height: 200px;
+    flex: 1;
+    position: relative;
+  }
+
   .laptopScreen {
-    width: 410px;
-    height: 283px;
+    width: 264px;
+    height: 165px;
     position: absolute;
-    top: 18px;
-    left: 68px;
+    top: 10px;
+    left: 60px;
     overflow: scroll;
+  }
+
+  .lapframe {
+    width: 350;
   }
 
   .laptopApp {
